@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #fff6f6;
+  color: hsl(0, 6%, 24%);
+  padding: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left {
+  flex: 1;
+  max-width: 500px;
+}
+
+.right {
+  flex: 1;
+}
+
+.logo {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h1 span {
+  color: hsl(0, 93%, 68%);
+  font-weight: 300;
+  display: block;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  border: 1px solid hsl(0, 36%, 70%);
+  border-radius: 25px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+form input {
+  border: none;
+  padding: 0.75rem 1rem;
+  flex: 1;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: hsl(0, 93%, 68%);
+  border: none;
+  padding: 0 1.5rem;
+  cursor: pointer;
+}
+
+form button img {
+  width: 12px;
+  height: 12px;
+}
+
+.error-message {
+  color: hsl(0, 93%, 68%);
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+input.error {
+  border: 2px solid hsl(0, 93%, 68%);
+  background-color: #ffe6e6;
+}
